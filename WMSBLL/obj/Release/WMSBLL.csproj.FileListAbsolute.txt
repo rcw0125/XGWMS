@@ -1,0 +1,82 @@
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\bin\Release\WMSBLL.dll.config
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\bin\Release\WMSBLL.dll
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\bin\Release\WMSBLL.XmlSerializers.dll
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\bin\Release\WMSBLL.pdb
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\bin\Release\DataAccess.dll
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\bin\Release\DataAccess.pdb
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\obj\Release\ResolveAssemblyReference.cache
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\obj\Release\WMSBLL.dll
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\obj\Release\WMSBLL.pdb
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\obj\Release\WMSBLL.XmlSerializers.dll
+C:\tm\XGWMS\WMSBLL\bin\Release\WMSBLL.dll.config
+C:\tm\XGWMS\WMSBLL\bin\Release\WMSBLL.dll
+C:\tm\XGWMS\WMSBLL\bin\Release\WMSBLL.XmlSerializers.dll
+C:\tm\XGWMS\WMSBLL\bin\Release\WMSBLL.pdb
+C:\tm\XGWMS\WMSBLL\bin\Release\DataAccess.dll
+C:\tm\XGWMS\WMSBLL\bin\Release\DataAccess.pdb
+C:\tm\XGWMS\WMSBLL\obj\Release\ResolveAssemblyReference.cache
+C:\tm\XGWMS\WMSBLL\obj\Release\WMSBLL.dll
+C:\tm\XGWMS\WMSBLL\obj\Release\WMSBLL.pdb
+C:\tm\XGWMS\WMSBLL\obj\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\bin\Release\WMSBLL.dll.config
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\bin\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\bin\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\bin\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\bin\Release\DataAccess.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\bin\Release\DataAccess.pdb
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\obj\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\obj\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\XGWMS20170303\XGWMS\WMSBLL\obj\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\bin\Release\WMSBLL.dll.config
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\bin\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\bin\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\bin\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\bin\Release\DataAccess.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\bin\Release\DataAccess.pdb
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\obj\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\obj\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\XGWMS2017\XGWMS\WMSBLL\obj\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\bin\Release\WMSBLL.dll.config
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\bin\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\bin\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\bin\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\bin\Release\DataAccess.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\bin\Release\DataAccess.pdb
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\obj\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\obj\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\XGWMS20171218\XGWMS\WMSBLL\obj\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\bin\Release\WMSBLL.dll.config
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\bin\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\bin\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\bin\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\bin\Release\DataAccess.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\bin\Release\DataAccess.pdb
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\obj\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\obj\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\XGWMS\WMSBLL\obj\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\bin\Release\WMSBLL.dll.config
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\bin\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\bin\Release\WMSBLL.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\bin\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\bin\Release\DataAccess.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\bin\Release\DataAccess.pdb
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\obj\Release\WMSBLL.dll
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\obj\Release\WMSBLL.pdb
+C:\Documents and Settings\Administrator\桌面\条码正式系统\XGWMS20171220\WMSBLL\obj\Release\WMSBLL.XmlSerializers.dll
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\bin\Release\WMSBLL.dll.config
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\bin\Release\WMSBLL.dll
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\bin\Release\WMSBLL.XmlSerializers.dll
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\bin\Release\WMSBLL.pdb
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\bin\Release\DataAccess.dll
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\bin\Release\DataAccess.pdb
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\obj\Release\WMSBLL.csprojResolveAssemblyReference.cache
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\obj\Release\WMSBLL.csproj.CoreCompileInputs.cache
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\obj\Release\WMSBLL.csproj.CopyComplete
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\obj\Release\WMSBLL.dll
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\obj\Release\WMSBLL.pdb
+C:\Users\rcw\Desktop\XGWMS20171220\WMSBLL\obj\Release\WMSBLL.XmlSerializers.dll

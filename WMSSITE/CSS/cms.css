@@ -1,0 +1,31 @@
+body {
+	font-size: 9pt;
+	background-image: url();
+}
+TD {
+	font-size: 9pt;
+}
+a:hover {
+	color: #FF3300;
+}
+A {
+	color: #333333;
+	text-decoration: none;
+}
+.style5 {
+	color: #666666;
+	font-size: 9pt;
+}
+.style6 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style7 {
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.style8 {
+	color: #333333;
+	font-weight: normal;
+	line-height: 18px;
+}

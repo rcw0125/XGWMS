@@ -1,0 +1,15 @@
+E:\WORK\ACCTRUE\项目\邢台钢铁厂\新版本\XGWMS.root\XGWMS\DataAccess\bin\Debug\DataAccess.dll
+E:\WORK\ACCTRUE\项目\邢台钢铁厂\新版本\XGWMS.root\XGWMS\DataAccess\bin\Debug\DataAccess.pdb
+E:\WORK\ACCTRUE\项目\邢台钢铁厂\新版本\XGWMS.root\XGWMS\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\ACCTRUE\项目\邢台钢铁厂\新版本\XGWMS.root\XGWMS\DataAccess\obj\Debug\DataAccess.dll
+E:\WORK\ACCTRUE\项目\邢台钢铁厂\新版本\XGWMS.root\XGWMS\DataAccess\obj\Debug\DataAccess.pdb
+C:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\bin\Debug\DataAccess.dll
+C:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\bin\Debug\DataAccess.pdb
+C:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.dll
+C:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.pdb
+E:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\bin\Debug\DataAccess.dll
+E:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\bin\Debug\DataAccess.pdb
+E:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.dll
+E:\Project\邢钢RF系统\new\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.pdb

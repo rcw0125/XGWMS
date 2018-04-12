@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ChageAjax.aspx.cs" Inherits="SiteBll_InDoor_ChageAjax" %>

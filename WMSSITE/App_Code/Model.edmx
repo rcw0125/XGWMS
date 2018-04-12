@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Acctrue_WMSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2005" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“Acctrue_WMS.dbo.WMS_Bms_auto_GaiPan”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="WMS_Bms_auto_GaiPan">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="GH" />
+            <PropertyRef Name="SCX" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PCH" Type="varchar" MaxLength="20" />
+          <Property Name="GH" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="SCX" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="SX" Type="varchar" MaxLength="20" />
+          <Property Name="CURFLAG" Type="varchar" MaxLength="10" />
+          <Property Name="INSERTTIME" Type="varchar" MaxLength="20" />
+          <Property Name="UPDATETIME" Type="varchar" MaxLength="20" />
+          <Property Name="STATUS" Type="varchar" MaxLength="10" />
+          <Property Name="TM" Type="varchar" MaxLength="50" />
+          <Property Name="PH" Type="varchar" MaxLength="20" />
+          <Property Name="GG" Type="varchar" MaxLength="20" />
+          <Property Name="ZXBZ" Type="varchar" MaxLength="50" />
+          <Property Name="vfree1" Type="varchar" MaxLength="50" />
+          <Property Name="vfree2" Type="varchar" MaxLength="50" />
+          <Property Name="vfree3" Type="varchar" MaxLength="50" />
+          <Property Name="wlh" Type="varchar" MaxLength="50" />
+          <Property Name="wlmc" Type="varchar" MaxLength="50" />
+          <Property Name="pcinfo" Type="varchar" MaxLength="50" />
+          <Property Name="gpyy" Type="varchar" MaxLength="50" />
+          <Property Name="gpflag" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“Acctrue_WMS.dbo.WMS_Bms_auto_GouHao”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="WMS_Bms_auto_GouHao">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="GH" />
+            <PropertyRef Name="NEXTGH" />
+            <PropertyRef Name="SCX" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GH" Type="int" Nullable="false" />
+          <Property Name="NEXTGH" Type="int" Nullable="false" />
+          <Property Name="PREGH" Type="int" />
+          <Property Name="PCH" Type="varchar" MaxLength="20" />
+          <Property Name="SCX" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="CURFLAG" Type="varchar" MaxLength="10" />
+          <Property Name="UPDATETIME" Type="varchar" MaxLength="20" />
+          <Property Name="STATUS" Type="varchar" MaxLength="10" />
+          <Property Name="ISSHOUGOU" Type="varchar" MaxLength="10" />
+          <Property Name="ISPAOGOU" Type="varchar" MaxLength="10" />
+          <Property Name="ISGP" Type="varchar" MaxLength="10" />
+          <Property Name="GAIGOU" Type="varchar" MaxLength="10" />
+          <Property Name="INSERTTIME" Type="varchar" MaxLength="20" />
+          <Property Name="RFID" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“Acctrue_WMS.dbo.WMS_Bms_auto_PaoGou”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="WMS_Bms_auto_PaoGou">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="GH" />
+            <PropertyRef Name="SCX" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GH" Type="int" Nullable="false" />
+          <Property Name="PCH" Type="varchar" MaxLength="20" />
+          <Property Name="SCX" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="CURFLAG" Type="varchar" MaxLength="10" />
+          <Property Name="DR" Type="varchar" MaxLength="10" />
+          <Property Name="INSERTTIME" Type="varchar" MaxLength="20" />
+          <Property Name="UPDATETIME" Type="varchar" MaxLength="20" />
+          <Property Name="DRTIME" Type="varchar" MaxLength="20" />
+          <Property Name="SWITCHGH" Type="varchar" MaxLength="10" />
+          <Property Name="SWITCHTIME" Type="varchar" MaxLength="20" />
+          <Property Name="PCTIME" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“Acctrue_WMS.dbo.WMS_Bms_auto_ShouGou”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="WMS_Bms_auto_ShouGou">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="SCX" />
+            <PropertyRef Name="PCH" />
+            <PropertyRef Name="PCTIME" />
+            <PropertyRef Name="GH" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SCX" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PCH" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="PCTIME" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="GH" Type="int" Nullable="false" />
+          <Property Name="CURFLAG" Type="varchar" MaxLength="10" />
+          <Property Name="INSERTTIME" Type="varchar" MaxLength="20" />
+          <Property Name="UPDATETIME" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="WMS_Bms_Back_Inv_Info">
+          <Key>
+            <PropertyRef Name="Barcode" />
+          </Key>
+          <Property Name="Barcode" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="WGDH" Type="varchar" MaxLength="50" />
+          <Property Name="CK" Type="varchar" MaxLength="30" />
+          <Property Name="HW" Type="varchar" MaxLength="20" />
+          <Property Name="PCH" Type="varchar" MaxLength="20" />
+          <Property Name="WLH" Type="varchar" MaxLength="20" />
+          <Property Name="WLMC" Type="varchar" MaxLength="100" />
+          <Property Name="SX" Type="varchar" MaxLength="30" />
+          <Property Name="ZLDJ" Type="varchar" MaxLength="10" />
+          <Property Name="PH" Type="varchar" MaxLength="30" />
+          <Property Name="GG" Type="varchar" MaxLength="30" />
+          <Property Name="BB" Type="varchar" MaxLength="10" />
+          <Property Name="GH" Type="int" />
+          <Property Name="ZL" Type="numeric" Precision="18" Scale="6" />
+          <Property Name="BZ" Type="varchar" MaxLength="40" />
+          <Property Name="RQ" Type="datetime" />
+          <Property Name="RKType" Type="varchar" MaxLength="20" />
+          <Property Name="RKRY" Type="varchar" MaxLength="20" />
+          <Property Name="WeightRQ" Type="datetime" />
+          <Property Name="BackupRQ" Type="datetime" />
+          <Property Name="vfree0" Type="varchar" MaxLength="300" />
+          <Property Name="vfree1" Type="varchar" MaxLength="50" />
+          <Property Name="vfree2" Type="varchar" MaxLength="50" />
+          <Property Name="vfree3" Type="varchar" MaxLength="50" />
+          <Property Name="vfree4" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="Acctrue_WMSModelStoreContainer">
+          <EntitySet Name="WMS_Bms_Back_Inv_Info" EntityType="Self.WMS_Bms_Back_Inv_Info" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WMS_Bms_auto_GaiPan" EntityType="Self.WMS_Bms_auto_GaiPan" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [WMS_Bms_auto_GaiPan].[ID] AS [ID], 
+    [WMS_Bms_auto_GaiPan].[PCH] AS [PCH], 
+    [WMS_Bms_auto_GaiPan].[GH] AS [GH], 
+    [WMS_Bms_auto_GaiPan].[SCX] AS [SCX], 
+    [WMS_Bms_auto_GaiPan].[SX] AS [SX], 
+    [WMS_Bms_auto_GaiPan].[CURFLAG] AS [CURFLAG], 
+    [WMS_Bms_auto_GaiPan].[INSERTTIME] AS [INSERTTIME], 
+    [WMS_Bms_auto_GaiPan].[UPDATETIME] AS [UPDATETIME], 
+    [WMS_Bms_auto_GaiPan].[STATUS] AS [STATUS], 
+    [WMS_Bms_auto_GaiPan].[TM] AS [TM], 
+    [WMS_Bms_auto_GaiPan].[PH] AS [PH], 
+    [WMS_Bms_auto_GaiPan].[GG] AS [GG], 
+    [WMS_Bms_auto_GaiPan].[ZXBZ] AS [ZXBZ], 
+    [WMS_Bms_auto_GaiPan].[vfree1] AS [vfree1], 
+    [WMS_Bms_auto_GaiPan].[vfree2] AS [vfree2], 
+    [WMS_Bms_auto_GaiPan].[vfree3] AS [vfree3], 
+    [WMS_Bms_auto_GaiPan].[wlh] AS [wlh], 
+    [WMS_Bms_auto_GaiPan].[wlmc] AS [wlmc], 
+    [WMS_Bms_auto_GaiPan].[pcinfo] AS [pcinfo], 
+    [WMS_Bms_auto_GaiPan].[gpyy] AS [gpyy], 
+    [WMS_Bms_auto_GaiPan].[gpflag] AS [gpflag]
+    FROM [dbo].[WMS_Bms_auto_GaiPan] AS [WMS_Bms_auto_GaiPan]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="WMS_Bms_auto_GouHao" EntityType="Self.WMS_Bms_auto_GouHao" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [WMS_Bms_auto_GouHao].[ID] AS [ID], 
+    [WMS_Bms_auto_GouHao].[GH] AS [GH], 
+    [WMS_Bms_auto_GouHao].[NEXTGH] AS [NEXTGH], 
+    [WMS_Bms_auto_GouHao].[PREGH] AS [PREGH], 
+    [WMS_Bms_auto_GouHao].[PCH] AS [PCH], 
+    [WMS_Bms_auto_GouHao].[SCX] AS [SCX], 
+    [WMS_Bms_auto_GouHao].[CURFLAG] AS [CURFLAG], 
+    [WMS_Bms_auto_GouHao].[UPDATETIME] AS [UPDATETIME], 
+    [WMS_Bms_auto_GouHao].[STATUS] AS [STATUS], 
+    [WMS_Bms_auto_GouHao].[ISSHOUGOU] AS [ISSHOUGOU], 
+    [WMS_Bms_auto_GouHao].[ISPAOGOU] AS [ISPAOGOU], 
+    [WMS_Bms_auto_GouHao].[ISGP] AS [ISGP], 
+    [WMS_Bms_auto_GouHao].[GAIGOU] AS [GAIGOU], 
+    [WMS_Bms_auto_GouHao].[INSERTTIME] AS [INSERTTIME], 
+    [WMS_Bms_auto_GouHao].[RFID] AS [RFID]
+    FROM [dbo].[WMS_Bms_auto_GouHao] AS [WMS_Bms_auto_GouHao]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="WMS_Bms_auto_PaoGou" EntityType="Self.WMS_Bms_auto_PaoGou" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [WMS_Bms_auto_PaoGou].[ID] AS [ID], 
+    [WMS_Bms_auto_PaoGou].[GH] AS [GH], 
+    [WMS_Bms_auto_PaoGou].[PCH] AS [PCH], 
+    [WMS_Bms_auto_PaoGou].[SCX] AS [SCX], 
+    [WMS_Bms_auto_PaoGou].[CURFLAG] AS [CURFLAG], 
+    [WMS_Bms_auto_PaoGou].[DR] AS [DR], 
+    [WMS_Bms_auto_PaoGou].[INSERTTIME] AS [INSERTTIME], 
+    [WMS_Bms_auto_PaoGou].[UPDATETIME] AS [UPDATETIME], 
+    [WMS_Bms_auto_PaoGou].[DRTIME] AS [DRTIME], 
+    [WMS_Bms_auto_PaoGou].[SWITCHGH] AS [SWITCHGH], 
+    [WMS_Bms_auto_PaoGou].[SWITCHTIME] AS [SWITCHTIME], 
+    [WMS_Bms_auto_PaoGou].[PCTIME] AS [PCTIME]
+    FROM [dbo].[WMS_Bms_auto_PaoGou] AS [WMS_Bms_auto_PaoGou]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="WMS_Bms_auto_ShouGou" EntityType="Self.WMS_Bms_auto_ShouGou" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [WMS_Bms_auto_ShouGou].[ID] AS [ID], 
+    [WMS_Bms_auto_ShouGou].[SCX] AS [SCX], 
+    [WMS_Bms_auto_ShouGou].[PCH] AS [PCH], 
+    [WMS_Bms_auto_ShouGou].[PCTIME] AS [PCTIME], 
+    [WMS_Bms_auto_ShouGou].[GH] AS [GH], 
+    [WMS_Bms_auto_ShouGou].[CURFLAG] AS [CURFLAG], 
+    [WMS_Bms_auto_ShouGou].[INSERTTIME] AS [INSERTTIME], 
+    [WMS_Bms_auto_ShouGou].[UPDATETIME] AS [UPDATETIME]
+    FROM [dbo].[WMS_Bms_auto_ShouGou] AS [WMS_Bms_auto_ShouGou]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Acctrue_WMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="WMS_Bms_Back_Inv_Info">
+          <Key>
+            <PropertyRef Name="Barcode" />
+          </Key>
+          <Property Name="Barcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="WGDH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CK" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="HW" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PCH" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="WLH" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="WLMC" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="SX" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="ZLDJ" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="PH" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="GG" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="BB" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="GH" Type="Int32" />
+          <Property Name="ZL" Type="Decimal" Precision="18" Scale="6" />
+          <Property Name="BZ" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="RQ" Type="DateTime" Precision="3" />
+          <Property Name="RKType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="RKRY" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="WeightRQ" Type="DateTime" Precision="3" />
+          <Property Name="BackupRQ" Type="DateTime" Precision="3" />
+          <Property Name="vfree0" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="vfree1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="vfree2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="vfree3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="vfree4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="WMS_Bms_auto_GaiPan">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="GH" />
+            <PropertyRef Name="SCX" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PCH" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GH" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SCX" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SX" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CURFLAG" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="INSERTTIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="UPDATETIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="STATUS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="TM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PH" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="GG" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ZXBZ" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="vfree1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="vfree2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="vfree3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="wlh" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="wlmc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="pcinfo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="gpyy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="gpflag" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="WMS_Bms_auto_GouHao">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="GH" />
+            <PropertyRef Name="NEXTGH" />
+            <PropertyRef Name="SCX" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GH" Type="Int32" Nullable="false" />
+          <Property Name="NEXTGH" Type="Int32" Nullable="false" />
+          <Property Name="PREGH" Type="Int32" />
+          <Property Name="PCH" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SCX" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CURFLAG" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="UPDATETIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="STATUS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ISSHOUGOU" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ISPAOGOU" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ISGP" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="GAIGOU" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="INSERTTIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="RFID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="WMS_Bms_auto_PaoGou">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="GH" />
+            <PropertyRef Name="SCX" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GH" Type="Int32" Nullable="false" />
+          <Property Name="PCH" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SCX" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CURFLAG" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="DR" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="INSERTTIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="UPDATETIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DRTIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SWITCHGH" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="SWITCHTIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PCTIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="WMS_Bms_auto_ShouGou">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="SCX" />
+            <PropertyRef Name="PCH" />
+            <PropertyRef Name="PCTIME" />
+            <PropertyRef Name="GH" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SCX" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PCH" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PCTIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="GH" Type="Int32" Nullable="false" />
+          <Property Name="CURFLAG" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="INSERTTIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="UPDATETIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="Acctrue_WMSEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="WMS_Bms_Back_Inv_Info" EntityType="Self.WMS_Bms_Back_Inv_Info" />
+          <EntitySet Name="WMS_Bms_auto_GaiPan" EntityType="Self.WMS_Bms_auto_GaiPan" />
+          <EntitySet Name="WMS_Bms_auto_GouHao" EntityType="Self.WMS_Bms_auto_GouHao" />
+          <EntitySet Name="WMS_Bms_auto_PaoGou" EntityType="Self.WMS_Bms_auto_PaoGou" />
+          <EntitySet Name="WMS_Bms_auto_ShouGou" EntityType="Self.WMS_Bms_auto_ShouGou" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Acctrue_WMSModelStoreContainer" CdmEntityContainer="Acctrue_WMSEntities">
+          <EntitySetMapping Name="WMS_Bms_Back_Inv_Info">
+            <EntityTypeMapping TypeName="Acctrue_WMSModel.WMS_Bms_Back_Inv_Info">
+              <MappingFragment StoreEntitySet="WMS_Bms_Back_Inv_Info">
+                <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+                <ScalarProperty Name="WGDH" ColumnName="WGDH" />
+                <ScalarProperty Name="CK" ColumnName="CK" />
+                <ScalarProperty Name="HW" ColumnName="HW" />
+                <ScalarProperty Name="PCH" ColumnName="PCH" />
+                <ScalarProperty Name="WLH" ColumnName="WLH" />
+                <ScalarProperty Name="WLMC" ColumnName="WLMC" />
+                <ScalarProperty Name="SX" ColumnName="SX" />
+                <ScalarProperty Name="ZLDJ" ColumnName="ZLDJ" />
+                <ScalarProperty Name="PH" ColumnName="PH" />
+                <ScalarProperty Name="GG" ColumnName="GG" />
+                <ScalarProperty Name="BB" ColumnName="BB" />
+                <ScalarProperty Name="GH" ColumnName="GH" />
+                <ScalarProperty Name="ZL" ColumnName="ZL" />
+                <ScalarProperty Name="BZ" ColumnName="BZ" />
+                <ScalarProperty Name="RQ" ColumnName="RQ" />
+                <ScalarProperty Name="RKType" ColumnName="RKType" />
+                <ScalarProperty Name="RKRY" ColumnName="RKRY" />
+                <ScalarProperty Name="WeightRQ" ColumnName="WeightRQ" />
+                <ScalarProperty Name="BackupRQ" ColumnName="BackupRQ" />
+                <ScalarProperty Name="vfree0" ColumnName="vfree0" />
+                <ScalarProperty Name="vfree1" ColumnName="vfree1" />
+                <ScalarProperty Name="vfree2" ColumnName="vfree2" />
+                <ScalarProperty Name="vfree3" ColumnName="vfree3" />
+                <ScalarProperty Name="vfree4" ColumnName="vfree4" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WMS_Bms_auto_GaiPan">
+            <EntityTypeMapping TypeName="Acctrue_WMSModel.WMS_Bms_auto_GaiPan">
+              <MappingFragment StoreEntitySet="WMS_Bms_auto_GaiPan">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="PCH" ColumnName="PCH" />
+                <ScalarProperty Name="GH" ColumnName="GH" />
+                <ScalarProperty Name="SCX" ColumnName="SCX" />
+                <ScalarProperty Name="SX" ColumnName="SX" />
+                <ScalarProperty Name="CURFLAG" ColumnName="CURFLAG" />
+                <ScalarProperty Name="INSERTTIME" ColumnName="INSERTTIME" />
+                <ScalarProperty Name="UPDATETIME" ColumnName="UPDATETIME" />
+                <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+                <ScalarProperty Name="TM" ColumnName="TM" />
+                <ScalarProperty Name="PH" ColumnName="PH" />
+                <ScalarProperty Name="GG" ColumnName="GG" />
+                <ScalarProperty Name="ZXBZ" ColumnName="ZXBZ" />
+                <ScalarProperty Name="vfree1" ColumnName="vfree1" />
+                <ScalarProperty Name="vfree2" ColumnName="vfree2" />
+                <ScalarProperty Name="vfree3" ColumnName="vfree3" />
+                <ScalarProperty Name="wlh" ColumnName="wlh" />
+                <ScalarProperty Name="wlmc" ColumnName="wlmc" />
+                <ScalarProperty Name="pcinfo" ColumnName="pcinfo" />
+                <ScalarProperty Name="gpyy" ColumnName="gpyy" />
+                <ScalarProperty Name="gpflag" ColumnName="gpflag" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WMS_Bms_auto_GouHao">
+            <EntityTypeMapping TypeName="Acctrue_WMSModel.WMS_Bms_auto_GouHao">
+              <MappingFragment StoreEntitySet="WMS_Bms_auto_GouHao">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="GH" ColumnName="GH" />
+                <ScalarProperty Name="NEXTGH" ColumnName="NEXTGH" />
+                <ScalarProperty Name="PREGH" ColumnName="PREGH" />
+                <ScalarProperty Name="PCH" ColumnName="PCH" />
+                <ScalarProperty Name="SCX" ColumnName="SCX" />
+                <ScalarProperty Name="CURFLAG" ColumnName="CURFLAG" />
+                <ScalarProperty Name="UPDATETIME" ColumnName="UPDATETIME" />
+                <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+                <ScalarProperty Name="ISSHOUGOU" ColumnName="ISSHOUGOU" />
+                <ScalarProperty Name="ISPAOGOU" ColumnName="ISPAOGOU" />
+                <ScalarProperty Name="ISGP" ColumnName="ISGP" />
+                <ScalarProperty Name="GAIGOU" ColumnName="GAIGOU" />
+                <ScalarProperty Name="INSERTTIME" ColumnName="INSERTTIME" />
+                <ScalarProperty Name="RFID" ColumnName="RFID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WMS_Bms_auto_PaoGou">
+            <EntityTypeMapping TypeName="Acctrue_WMSModel.WMS_Bms_auto_PaoGou">
+              <MappingFragment StoreEntitySet="WMS_Bms_auto_PaoGou">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="GH" ColumnName="GH" />
+                <ScalarProperty Name="PCH" ColumnName="PCH" />
+                <ScalarProperty Name="SCX" ColumnName="SCX" />
+                <ScalarProperty Name="CURFLAG" ColumnName="CURFLAG" />
+                <ScalarProperty Name="DR" ColumnName="DR" />
+                <ScalarProperty Name="INSERTTIME" ColumnName="INSERTTIME" />
+                <ScalarProperty Name="UPDATETIME" ColumnName="UPDATETIME" />
+                <ScalarProperty Name="DRTIME" ColumnName="DRTIME" />
+                <ScalarProperty Name="SWITCHGH" ColumnName="SWITCHGH" />
+                <ScalarProperty Name="SWITCHTIME" ColumnName="SWITCHTIME" />
+                <ScalarProperty Name="PCTIME" ColumnName="PCTIME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WMS_Bms_auto_ShouGou">
+            <EntityTypeMapping TypeName="Acctrue_WMSModel.WMS_Bms_auto_ShouGou">
+              <MappingFragment StoreEntitySet="WMS_Bms_auto_ShouGou">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="SCX" ColumnName="SCX" />
+                <ScalarProperty Name="PCH" ColumnName="PCH" />
+                <ScalarProperty Name="PCTIME" ColumnName="PCTIME" />
+                <ScalarProperty Name="GH" ColumnName="GH" />
+                <ScalarProperty Name="CURFLAG" ColumnName="CURFLAG" />
+                <ScalarProperty Name="INSERTTIME" ColumnName="INSERTTIME" />
+                <ScalarProperty Name="UPDATETIME" ColumnName="UPDATETIME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="false" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

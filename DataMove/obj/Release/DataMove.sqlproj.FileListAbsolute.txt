@@ -1,0 +1,9 @@
+C:\Users\rcw\Desktop\XGWMS20171220\DataMove\bin\Release\DataMove.dacpac
+C:\Users\rcw\Desktop\XGWMS20171220\DataMove\bin\Release\dbpProjectName.dll
+C:\Users\rcw\Desktop\XGWMS20171220\DataMove\bin\Release\dbpProjectName.pdb
+C:\Users\rcw\Desktop\XGWMS20171220\DataMove\obj\Release\Model.xml
+C:\Users\rcw\Desktop\XGWMS20171220\DataMove\obj\Release\refactor.xml
+C:\Users\rcw\Desktop\XGWMS20171220\DataMove\obj\Release\postdeploy.sql
+C:\Users\rcw\Desktop\XGWMS20171220\DataMove\obj\Release\predeploy.sql
+C:\Users\rcw\Desktop\XGWMS20171220\DataMove\obj\Release\dbpProjectName.dll
+C:\Users\rcw\Desktop\XGWMS20171220\DataMove\obj\Release\dbpProjectName.pdb

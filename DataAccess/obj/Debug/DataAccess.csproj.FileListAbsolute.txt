@@ -1,0 +1,10 @@
+E:\WORK\OPL项目\邢钢\XGWMS20090101\XGWMS\DataAccess\bin\Debug\DataAccess.dll
+E:\WORK\OPL项目\邢钢\XGWMS20090101\XGWMS\DataAccess\bin\Debug\DataAccess.pdb
+E:\WORK\OPL项目\邢钢\XGWMS20090101\XGWMS\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\OPL项目\邢钢\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.dll
+E:\WORK\OPL项目\邢钢\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.pdb
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\DataAccess\bin\Debug\DataAccess.dll
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\DataAccess\bin\Debug\DataAccess.pdb
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.dll
+E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.pdb

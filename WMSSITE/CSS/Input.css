@@ -1,0 +1,432 @@
+body
+{
+	font-size: 9pt;
+	color: black;
+	font-family: SimSun;
+	margin-left:0;
+	margin-right:0;
+}
+
+body.topFrame
+{
+	font-size: 9pt;
+	color: black;
+	font-family: SimSun;
+}
+
+div.topFrame
+{
+	font-size: 9pt;
+	color: black;
+	font-family: SimSun;
+	background-color: #fea465;
+}
+
+img.alpha
+{
+	filter:progid:DXImageTransform.Microsoft.Alpha( Opacity=100, FinishOpacity=50, Style=2, StartX=0,  FinishX=100, StartY=0, FinishY=100);
+}
+
+img.shadowAlpha
+{
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='black', Direction=135, Strength=1)progid:DXImageTransform.Microsoft.Alpha( Opacity=100, FinishOpacity=50, Style=2, StartX=0,  FinishX=100, StartY=0, FinishY=100);
+}
+
+
+body.messageBox
+{
+	font-size: 9pt;
+	color: black;
+	font-family: SimSun;
+	background-color: wheat;
+}
+
+div.topBody
+{
+	font-size: 9pt;
+	color: black;
+	font-family: SimSun;
+	background-color: #faefc5;
+}
+
+div.subTitle
+{
+	font-size: 12pt;
+}
+
+div.flowNode
+{
+	font-size: 9pt;
+	background-color: #ccff99;
+}
+
+div.flowParentNode
+{
+	font-size: 9pt;
+	background-color: Aqua;
+}
+
+div.flowNodeSelected
+{
+	font-size: 9pt;
+	background-color: #33ccff;  
+}
+
+
+A{COLOR: #336DBD;FONT-SIZE: 9pt;TEXT-DECORATION: none}
+A:link{COLOR: #336DBD;FONT-SIZE: 9pt;}
+A:visited{COLOR: #336DBD;FONT-SIZE: 9pt;}
+A:hover{COLOR: #ff3300;}
+
+/*
+xpTable 样式
+*/
+.xpTable
+{	
+	highlightBackgroundColor: #E6EFF6;
+	highlightBorderColor: #316AC5;
+	selectRowColor:#EBE9EA;
+	cursor: default;
+	table-layout:fixed;	
+}
+.xpTable THEAD TD
+{
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #87A6C2;
+	border-right: 1px solid #87A6C2;
+	font: menu;
+	background-color: #DCE8F4;
+    cursor: hand;
+    padding-top: 0px;
+    padding-bottom: 1px;
+}
+.xpTable TBODY TR
+{
+	color: windowtext;
+	background: window;
+}
+/*xpTable 样式结束*/
+
+table
+{
+	border-right: medium none;
+	border-top:medium none;
+	font-size: 9pt;
+	border-left: medium none;
+	border-bottom: medium none;
+	border-collapse: collapse;
+	display:inline-block;
+	
+}
+
+.Flowtable
+{
+	border-right: medium none;
+	border-top:medium none;
+	font-size: 9pt;
+	border-left: medium none;
+	border-bottom: medium none;
+	border-collapse: collapse;
+	display:inline-block;
+	table-layout:fixed;	
+}
+
+table.withoutBorder
+{
+	border-right: medium none;
+	border-top: medium none;
+	font-size: 9pt;
+	border-left: medium none;
+	border-bottom: medium none;
+	background-color: transparent;
+}
+
+.readonly
+{
+    FONT-SIZE: 9pt;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.activeElement
+{
+    BACKGROUND-COLOR: lightblue
+}
+
+.gridHead
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+	/*BACKGROUND-COLOR: #80C8F0;
+	color:White;*/
+    FILTER: progid:DXImageTransform.Microsoft.Alpha( Opacity=100, FinishOpacity=50, Style=2, StartX=0,  FinishX=100, StartY=0, FinishY=100);
+}
+
+.gridHighlight
+{
+	background-color: #dcc3eb;
+}
+
+.gridSelectedHighlight
+{
+	BACKGROUND-COLOR: #b6bdd2;
+}
+
+.gridOddRow
+{
+	FONT-SIZE: 9pt;
+	/*BACKGROUND-COLOR: #D5EFFE;*/
+}
+
+.gridEvenRow
+{
+    FONT-SIZE: 9pt;
+   /* BACKGROUND-COLOR: #B8DFFC;*/
+}
+
+.gridAlarmRow
+{
+	FONT-SIZE: 9pt;
+	BACKGROUND-COLOR: #ff6666;
+}
+
+.gridWarnRow
+{
+    FONT-SIZE: 9pt;
+    BACKGROUND-COLOR: #ffff66;
+}
+
+table.WorkForm tr
+{
+	BACKGROUND-COLOR:#efeff7;
+}
+div.WorkFormTitle
+{
+	text-align:center;
+	background-color:Teal;
+	font-weight:bold;
+
+}
+
+div.WorkFormSubTitle
+{
+ 
+	BACKGROUND-COLOR: #226699;
+   color:#FFFFFF;
+   text-align:left;
+   table-layout:fixed;
+   font-weight:bold;
+   height:20px;
+   text-justify:newspaper;
+   padding-top:5px;
+ }
+.userData 
+{
+	behavior:url(#default#userdata);
+}
+
+.saveHistory
+{
+	behavior:url(#default#savehistory);
+}
+
+.modalEditable
+{
+	font-size: 9pt;
+	color: black;
+	font-family: SimSun;
+	background-color:#ede8e0;
+}
+
+.modal
+{
+	font-size: 9pt;
+	color: black;
+	font-family: SimSun;
+	BACKGROUND-COLOR:#ddd8ce;
+}
+
+.toolbarPanel
+{
+	BACKGROUND-COLOR:#ddd8ce;
+}
+
+.toolButton
+{
+	filter:progid:DXImageTransform.Microsoft.Alpha( Opacity=100, FinishOpacity=50, Style=2, StartX=0,  FinishX=100, StartY=0, FinishY=100);
+	BORDER-RIGHT: 1px solid #faefc5;
+	BORDER-TOP: 1px solid #faefc5;
+	BORDER-LEFT: 1px solid #faefc5;
+	BORDER-BOTTOM: 1px solid #faefc5;
+}
+.toolSplit
+{
+	POSITION: relative; top:1px;
+	color: gray;
+}
+
+.mouseOver
+{
+	BORDER-RIGHT: 1px solid gray;
+	BORDER-TOP: 1px solid gray;
+	BORDER-LEFT: 1px solid gray;
+	BORDER-BOTTOM: 1px solid gray;
+	background-color: #b6bdd2;
+}
+
+.dropdownChecked
+{
+	background-color: #b6bdd2;
+}
+
+.mouseOver2
+{
+	BORDER-RIGHT: 1px solid black;
+	BORDER-TOP: 1px solid black;
+	BORDER-LEFT: 1px solid black;
+	BORDER-BOTTOM: 1px solid black;
+	background-color: #faefc5;
+}
+.mouseOverNoMove
+{
+	BORDER-RIGHT: 1px solid gray;
+	BORDER-TOP: 1px solid gray;
+	BORDER-LEFT: 1px solid gray;
+	BORDER-BOTTOM: 1px solid gray;
+	background-color: #b6bdd2;
+}
+.mouseOverNoBorder
+{
+	background-color: #b6bdd2;
+}
+.mouseOverButton
+{
+	CURSOR: hand;
+	color :Blue ;
+}
+.formTitle
+{
+	
+	font-size:18px;
+	font-weight:bold;
+	line-height:35px;
+}
+div.LabelSty
+{
+	table-layout:fixed;
+	word-break:break-all;
+	word-wrap:break-word;
+}
+.GrideSty
+{
+	table-layout:fixed;
+	word-break: break-all; 
+	word-wrap:break-word;
+	
+}
+textarea,input,object	{ font-family: Tahoma, 宋体; font-size: 12px;  color: #000000; font-weight: normal; }
+select		            { font-family: Tahoma, 宋体; font-size: 12px;  color: #000000; font-weight: normal; }
+
+/*设置表头为实线。和systemtd 一起，出现虚线设置*/
+.Systemtable
+{
+	border-right: medium none;
+	border-top:medium none;
+	font-size: 9pt;
+	border-left: medium none;
+	border-bottom: medium none;
+	border-collapse: collapse;
+	display:inline-block;
+	border-style:solid;
+	border-width:1px;
+ }
+/*设置表格的横线为实线*/
+.SystemTd
+{
+	border-bottom-style:solid; border-width:1px; border-bottom-color:#ebe9ea;
+}
+/*设置表格的横线为虚线*/
+.SystemDashedTd
+{
+	border-bottom-style:dashed; border-width:1px; border-bottom-color:#9c9c9c;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+/*固定表头和固定列不能同时使用*/
+/*固定列*/
+.fixColStyle 
+{
+	position:relative;
+	LEFT:0px;
+	top: 0px;
+}
+/*固定表头*/
+.fixHeaderStyle
+{
+	position:relative;
+	TOP:expression(this.offsetParent.scrollTop);
+}
+
+.rightText
+{
+  text-align:right;
+}
+.showFlowOver 
+{
+	text-overflow:ellipsis;overflow:hidden;white-space: nowrap;
+}
+
+.setFontHeader9
+{
+	font-size:9pt;
+	position:relative;
+	TOP:expression(this.offsetParent.scrollTop);
+}
+.setFontHeader10
+{
+	font-size:10pt;
+	position:relative;
+	TOP:expression(this.offsetParent.scrollTop);
+}
+.setFontHeader11
+{
+	font-size:11pt;
+	position:relative;
+	TOP:expression(this.offsetParent.scrollTop);
+}
+.setFont9
+{
+	font-size:9pt;
+}
+.setFont10
+{
+	font-size:10pt;
+}
+.setFont11
+{
+	font-size:11pt;
+}
+.printTable
+{
+	border-collapse: collapse;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+}
+
+
+.printTableHeader
+{
+	border-collapse: collapse;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	font-weight: bold;
+}
+

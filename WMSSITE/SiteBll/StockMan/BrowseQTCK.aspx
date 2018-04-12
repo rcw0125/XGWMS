@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="BrowseQTCK.aspx.cs" Inherits="SiteBll_StockMan_BrowseQTCK"  EnableEventValidation="false"%>

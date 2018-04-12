@@ -1,0 +1,78 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+
+using System.Collections.Generic;
+using System.Text;
+
+using System.Data.SqlClient;
+using ACCTRUE.WMSBLL.QueryBll;
+using Acctrue.WM_WES.DataAccess;
+/// <summary>
+///DYXX 的摘要说明
+/// </summary>
+public class DYXX
+{
+    public static string con = "server=192.168.2.166;database=AcctrueWMS;user id=sa;password=sa";
+    public static DataSet GetDJMX(string fydh)
+    {
+        string strSql = "select * FROM dbo.WMS_Bms_Inv_OutInfo where fydh='" + fydh + "'";
+        AdoHelper dataHelp = new SqlHelp();
+        DataSet ds = dataHelp.ExecuteDataset(con, CommandType.Text, strSql);
+        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+            return ds;
+        return null;
+    }
+    public static DataSet GetGHXX(string fydh)
+    {
+        string strSql = "select distinct PCH,dbo.GetPGS(PCH,'" + fydh + "') as PGS FROM dbo.WMS_Bms_Inv_OutInfo where fydh='" + fydh + "'";
+        AdoHelper dataHelp = new SqlHelp();
+        DataSet ds = dataHelp.ExecuteDataset(con, CommandType.Text, strSql);
+        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+            return ds;
+        return null;
+    }
+    public static DataSet GetZCMX(string fydh)
+    {
+        string strSql = "select CK, PCH, WLMC,count(1) as js,sum(ZL) as zlhe,max(rq) as rq FROM dbo.WMS_Bms_Inv_OutInfo where fydh='" + fydh + "' group by CK,PCH,WLH,WLMC,GG,PH";
+        AdoHelper dataHelp = new SqlHelp();
+        DataSet ds = dataHelp.ExecuteDataset(con, CommandType.Text, strSql);
+        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+            return ds;
+        return null;
+    }
+    public static DataSet GetZCMX1(string fydh)
+    {
+        string strSql = "select xh=row_number() over(order by vdelivbillcode),t.* FROM v_fyd_details t where vdelivbillcode='" + fydh + "'";
+        AdoHelper dataHelp = new SqlHelp();
+        DataSet ds = dataHelp.ExecuteDataset(con, CommandType.Text, strSql);
+        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+            return ds;
+        return null;
+    }
+
+    public static DataSet GetZCMX2(string fydh)
+    {
+        string strSql = "select dbo.GetCZY('" + fydh + "') as czy";
+        AdoHelper dataHelp = new SqlHelp();
+        DataSet ds = dataHelp.ExecuteDataset(con, CommandType.Text, strSql);
+        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+            return ds;
+        return null;
+    }
+    public static DataSet GetZCMX3(string fydh)
+    {
+        string strSql = "select  (select top(1) khname from WMS_Pub_Customer where (khid=a.khbm))  as  khname,case a.yslb when 1 then '汽车发运' else '火车发运' end as cx,cph,fydh FROM WMS_Bms_Pic_FYD a where fydh='" + fydh + "'";
+        AdoHelper dataHelp = new SqlHelp();
+        DataSet ds = dataHelp.ExecuteDataset(con, CommandType.Text, strSql);
+        if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+            return ds;
+        return null;
+    }
+}

@@ -1,0 +1,259 @@
+body,table,tr,td,p{font-size:9pt;font-family:宋体;line-height:1.4}
+input,select,span,table,textarea{font-size:9pt;font-family:宋体}
+
+.Lnkbutton:visited {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: underline;
+}
+.Lnkbutton:link {
+	COLOR: red; FONT-SIZE: 12px; TEXT-DECORATION:underline;
+}
+.Lnkbutton:active {
+	COLOR: #000000; FONT-SIZE: 12px;TEXT-DECORATION:underline;
+}
+.Lnkbutton:hover {
+	COLOR: #0066cc; FONT-SIZE: 12px;TEXT-DECORATION:underline;
+}
+
+a.links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.links:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.mainnav {
+	font-size: 9pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.mainbackground {
+	background-attachment: fixed;
+	background-image: url(../images/mainbg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.contentTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #3F4B6F;
+}
+.content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+}
+.btnclass
+{
+	BORDER-TOP-STYLE: none;
+	BORDER-BOTTOM-STYLE: none;
+	BORDER-LEFT-STYLE: none;
+	BORDER-RIGHT-STYLE: none;
+	background-color:Transparent;
+	color:Blue ;
+	BACKGROUND-REPEAT: no-repeat;
+	WIDTH: 25px;
+	HEIGHT: 19px;
+}
+.textclass1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color:#000000;
+	
+	border: 1px solid #8080FF;
+}
+.textclass2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	background:#8080FF;
+	border: 1px solid SlateBlue;
+}
+.textclass3 {
+	font-family: Arial, Helvetica, sans-serif,黑体 ;
+	font-size: 10pt;
+	color:#000000;
+	background:#White;
+	border: 1px solid SlateBlue;
+	color:Black;
+}
+.dropclass {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	width: 140px;
+	border: 1px solid #666666;
+}
+.rblclass {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	width: 140px;
+	border: 0px;
+}
+.chkclass {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	width: 12px;
+	height: 12px;
+}
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #3F4B6F;
+}
+.SingleRow
+{ 
+ 	background-color: #e0eaf3;
+	font-size: 9pt;
+    font-family:"宋体";
+}
+.DoubleRow
+{
+ 	background-color: #edf2f9;
+ 	font-size: 9pt;
+    font-family:"宋体"
+}
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #006600;
+}
+
+.DataGrid
+{
+ 	font-size: 9pt;
+    font-family: "宋体";
+    background-color: #8A95AC;
+	color: #000000
+	
+}
+.bi-grid-header_body
+{
+	border-right: black 0px ridge;	
+	padding-left: 0px;
+	padding-bottom: 0px;
+	border-left: black 1px ridge;	
+	padding-top: 0px;	
+	white-space: nowrap;	
+}
+.bi-grid-body
+{	
+	border-right: black 1px ridge;
+	border-top: black 1px ridge;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	overflow-Y:auto;	
+	border-left: black 1px ridge;
+	width: 100%;
+	padding-top: 0px;
+	border-bottom: black 1px ridge;
+	white-space: nowrap;
+	height: 100%;	
+	TEXT-OVERFLOW: ellipsis;
+	background-color: white;
+}
+.DataGridHeader
+{
+ 	font-size: 9pt;
+    font-family:"宋体";
+ 	background-color: #C8E1FB;
+    color:#014F8A ;
+    height: 22px;
+}
+.DataGridFooter
+{
+ 	font-size: 9pt;
+    font-family:"宋体";
+ 	background-color: #D7E1F0;
+ 	color: #000000
+}
+.DataGridItem
+{
+ 	background-color: #f2f2f2;
+ 	border:#9FD6FF;
+  	color: #000000;
+	font-size: 9pt;
+    font-family:"宋体";
+    height: 22px;
+}
+.DataGridSingleItem
+{
+ 	background-color: #F2F9FF;
+ 	color: #000000;
+ 	font-size: 9pt;
+    font-family:"宋体";
+    height: 22px;
+}
+.DataGridDoubleItem
+{
+ 	background-color: #edf2f9;
+ 	color: #000000;
+ 	font-size: 9pt;
+    font-family:"宋体";
+    height: 22px;
+}
+.DataGridSelectItem
+{
+ 	background-color: Orange;
+ 	color: #000000;
+ 	font-size: 9pt;
+    font-family:"宋体";
+    height: 22px;
+}
+
+
+
+/************************************DatePicker Style Begin***************************************/
+.DatePicker_Text
+{
+	font-size: 12px;
+	font-family: MS Sans Serif; 
+	padding: 4px;
+	font-weight: normal;
+	padding-bottom: 1px;
+	margin: 0px;
+	padding-top: 3px;
+	letter-spacing: 1px;
+	height: 20px;
+}
+.DatePicker_Button
+{
+	background-image: url(../Images/DatePicker/BIMG.gif);
+	border-left: 0px solid;
+	width: 22px;
+	height: 20px;
+	CURSOR: hand;
+}
+.DatePicker_DisText
+{
+	font-size: 12px;
+	font-family: MS Sans Serif; 
+	padding: 4px;
+	font-weight: normal;
+	padding-bottom: 1px;
+	margin: 0px;
+	padding-top: 3px;
+	letter-spacing: 1px;
+	height: 20px;
+	FILTER:gray();
+	COLOR: graytext; 
+	CURSOR: default;
+}
+.DatePicker_DisButton
+{
+	background-image: url(../Images/DatePicker/BIMG.gif);
+	border-left: 0px solid;
+	width: 22px;
+	height: 20px;
+	FILTER:gray();
+	COLOR: graytext; 
+	CURSOR: default;
+}
+/************************************DatePicker Style End***************************************/
+
