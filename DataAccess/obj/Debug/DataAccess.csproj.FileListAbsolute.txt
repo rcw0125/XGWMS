@@ -8,3 +8,9 @@ E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\DataAccess\bin\Debug\DataAcce
 E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\DataAccess\obj\Debug\ResolveAssemblyReference.cache
 E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.dll
 E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Administrator\source\repos\XGWMS\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Administrator\source\repos\XGWMS\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Administrator\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.pdb

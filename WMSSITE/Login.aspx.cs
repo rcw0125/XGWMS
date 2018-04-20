@@ -24,6 +24,7 @@ public partial class login : System.Web.UI.Page
             }
             this.txtUserName.Focus();
             string strHisSite = ConfigurationManager.AppSettings["HistorySite"];
+            //为img按钮添加点击属性，方法为js的方法
             this.imgHistory.Attributes.Add("onClick", "OpenHistory()");
         }
     }

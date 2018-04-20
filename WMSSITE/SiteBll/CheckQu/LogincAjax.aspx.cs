@@ -977,7 +977,7 @@ public partial class SiteBll_FormMan_LogincAjax : System.Web.UI.Page
                             }
                             else
                             {
-                                ds401 = QuCheck.getKCTW();
+                                 ds401 = QuCheck.getKCTW();
                             }
                             
                            

@@ -14,3 +14,13 @@ E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\bin\Debug\DataAccess.p
 E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\obj\Debug\ResolveAssemblyReference.cache
 E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\obj\Debug\WMSBLL.dll
 E:\WORK\OPL项目\邢台钢铁\XGWMS20090101\XGWMS\WMSBLL\obj\Debug\WMSBLL.pdb
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\bin\Debug\WMSBLL.dll.config
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\bin\Debug\WMSBLL.dll
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\bin\Debug\WMSBLL.pdb
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\bin\Debug\DataAccess.dll
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.csproj.CopyComplete
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.dll
+C:\Users\Administrator\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.pdb
