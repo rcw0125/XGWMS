@@ -45,9 +45,14 @@
 			                    <TD align="left" style="width: 90px; text-align: center; height: 25px;">
                                     车牌号</TD>
 			                    <TD style="height: 25px;">
-                                    <bestcomy:ComboBox ID="DDlistSearchCPH" runat="server" Width="70%" Text="">
-                                    </bestcomy:ComboBox><%--                                    <asp:DropDownList ID="DDlistSearchCPH" runat="server" Width="100px">
-                                    </asp:DropDownList>--%></TD>
+                                    <%-- <bestcomy:ComboBox ID="DDlistSearchCPH" runat="server" Width="70%" Text="">
+                                    </bestcomy:ComboBox>--%>
+                                     <asp:DropDownList ID="DDlistSearchCPH" runat="server" Width="70%" >
+                                    </asp:DropDownList>
+                                    <%--                                    <asp:DropDownList ID="DDlistSearchCPH" runat="server" Width="100px">
+                                    </asp:DropDownList>--%>
+
+			                    </TD>
 			                    <TD style="height: 25px; width: 121px;" align="center">申请人</TD>
 			                    <TD style="height: 25px; width: 114px;"><FONT face="宋体"><asp:DropDownList ID="DDlistSearchProposer" runat="server" Width="100px">
                                 </asp:DropDownList></FONT></TD>

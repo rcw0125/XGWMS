@@ -363,7 +363,7 @@ public partial class SiteBll_Report_CLHZSearch : AccPageBase
         try {
             string sql2 = " v_rod_yield t1 ";
         string sqlWhere = "WHERE 1=1 ";
-        string strSql = "with tempdb as (SELECT distinct t1.ph,t1.gg from " + sql2 + " {0} ) select count(1) from tempdb";
+        string strSql = "with tempdb as (SELECT distinct t1.ph,t1.gg,t1.jhddh from " + sql2 + " {0} ) select count(1) from tempdb";
         if (!string.IsNullOrEmpty(strWhere))
         {
             sqlWhere += " AND " + strWhere;
