@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="dbpProjectName.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\ADMINISTRATOR\SOURCE\REPOS\XGWMS\DATAMOVE\OBJ\DEBUG\DBPPROJECTNAME.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\L2COMM\SOURCE\REPOS\XGWMS\DATAMOVE\OBJ\DEBUG\DBPPROJECTNAME.DLL" />
 			<Metadata Name="AssemblyName" Value="dbpProjectName" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\Administrator\source\repos\XGWMS\DataMove\obj\Debug\dbpProjectName.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\L2comm\source\repos\XGWMS\DataMove\obj\Debug\dbpProjectName.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>

@@ -8,3 +8,12 @@ C:\Users\Administrator\source\repos\XGWMS\DataMove\obj\Debug\postdeploy.sql
 C:\Users\Administrator\source\repos\XGWMS\DataMove\obj\Debug\predeploy.sql
 C:\Users\Administrator\source\repos\XGWMS\DataMove\obj\Debug\dbpProjectName.dll
 C:\Users\Administrator\source\repos\XGWMS\DataMove\obj\Debug\dbpProjectName.pdb
+C:\Users\L2comm\source\repos\XGWMS\DataMove\bin\Debug\DataMove.dacpac
+C:\Users\L2comm\source\repos\XGWMS\DataMove\bin\Debug\dbpProjectName.dll
+C:\Users\L2comm\source\repos\XGWMS\DataMove\bin\Debug\dbpProjectName.pdb
+C:\Users\L2comm\source\repos\XGWMS\DataMove\obj\Debug\Model.xml
+C:\Users\L2comm\source\repos\XGWMS\DataMove\obj\Debug\refactor.xml
+C:\Users\L2comm\source\repos\XGWMS\DataMove\obj\Debug\postdeploy.sql
+C:\Users\L2comm\source\repos\XGWMS\DataMove\obj\Debug\predeploy.sql
+C:\Users\L2comm\source\repos\XGWMS\DataMove\obj\Debug\dbpProjectName.dll
+C:\Users\L2comm\source\repos\XGWMS\DataMove\obj\Debug\dbpProjectName.pdb

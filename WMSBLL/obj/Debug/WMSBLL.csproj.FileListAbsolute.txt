@@ -24,3 +24,13 @@ C:\Users\Administrator\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.csproj.CoreCom
 C:\Users\Administrator\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.csproj.CopyComplete
 C:\Users\Administrator\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.dll
 C:\Users\Administrator\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.pdb
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\bin\Debug\WMSBLL.dll.config
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\bin\Debug\WMSBLL.dll
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\bin\Debug\WMSBLL.pdb
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\bin\Debug\DataAccess.dll
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\bin\Debug\DataAccess.pdb
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.csprojResolveAssemblyReference.cache
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.csproj.CoreCompileInputs.cache
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.csproj.CopyComplete
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.dll
+C:\Users\L2comm\source\repos\XGWMS\WMSBLL\obj\Debug\WMSBLL.pdb
