@@ -20,3 +20,9 @@ C:\Users\L2comm\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.csproj.CoreCo
 C:\Users\L2comm\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\L2comm\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\L2comm\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\rcw\source\repos\XGWMS\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\rcw\source\repos\XGWMS\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\rcw\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\rcw\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\rcw\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\rcw\source\repos\XGWMS\DataAccess\obj\Debug\DataAccess.pdb
