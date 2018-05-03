@@ -59,6 +59,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DeleteFile", "DeleteFile\",
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightApp", "称重在线20171226\WeightApp\WeightApp.csproj", "{FF8E2006-B661-42A8-A5C2-3D19494B9975}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -163,6 +165,30 @@ Global
 		{0519368B-47DD-4798-B09A-505B7BA786EE}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{0519368B-47DD-4798-B09A-505B7BA786EE}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{0519368B-47DD-4798-B09A-505B7BA786EE}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Debug|.NET.Build.0 = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.DebugLocal|.NET.ActiveCfg = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.DebugLocal|.NET.Build.0 = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.DebugLocal|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.DebugLocal|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Production|.NET.ActiveCfg = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Production|.NET.Build.0 = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Production|Any CPU.Build.0 = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Production|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Production|Mixed Platforms.Build.0 = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Release|.NET.ActiveCfg = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Release|.NET.Build.0 = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FF8E2006-B661-42A8-A5C2-3D19494B9975}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

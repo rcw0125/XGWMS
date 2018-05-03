@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF8E2006-B661-42A8-A5C2-3D19494B9975}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WeightApp</RootNamespace>
+    <AssemblyName>WeightApp</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\发布\XGCZ\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://192.168.27.250/XGCZ/</InstallUrl>
+    <UpdateUrl>http://192.168.27.250/XGCZ/</UpdateUrl>
+    <TargetCulture>zh-CN</TargetCulture>
+    <ProductName>称重打牌</ProductName>
+    <SuiteName>WMS</SuiteName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>BARCODE.ICO</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0A4B337DF1276F8360EA9012995B1B3D3858A109</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WeightApp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.FastReport">
+      <HintPath>Lib\Interop.FastReport.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Lephone.Data, Version=3.9.3759.27912, Culture=neutral, PublicKeyToken=d77bbd87a80780b6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\3.9\Lephone.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Lephone.Util, Version=3.9.3759.27911, Culture=neutral, PublicKeyToken=3eacc2a29b11f14a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\3.9\Lephone.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="OPL.UI.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\3.9\OPL.UI.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.QRCode, Version=1.0.4778.30637, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcctrueWMSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcctrueWMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="addHeatid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addHeatid.Designer.cs">
+      <DependentUpon>addHeatid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogQuery.Designer.cs">
+      <DependentUpon>FrmLogQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQSearch.Designer.cs">
+      <DependentUpon>FrmQSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQuery.Designer.cs">
+      <DependentUpon>FrmQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Advantech.cs" />
+    <Compile Include="AlphaBlendingBringer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AlphaBlendingBringer.designer.cs">
+      <DependentUpon>AlphaBlendingBringer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBDSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBDSearch.Designer.cs">
+      <DependentUpon>FrmBDSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmchangepass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmchangepass.designer.cs">
+      <DependentUpon>frmchangepass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComSet.Designer.cs">
+      <DependentUpon>frmComSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmflash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmflash.Designer.cs">
+      <DependentUpon>frmflash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmgp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmgp.Designer.cs">
+      <DependentUpon>frmgp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frminputdirname.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminputdirname.designer.cs">
+      <DependentUpon>frminputdirname.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoading.Designer.cs">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageLogin.Designer.cs">
+      <DependentUpon>frmManageLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageMain.designer.cs">
+      <DependentUpon>frmManageMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmParam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmParam.Designer.cs">
+      <DependentUpon>frmParam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPCLSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPCLSet.Designer.cs">
+      <DependentUpon>frmPCLSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmprintmodule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmprintmodule.designer.cs">
+      <DependentUpon>frmprintmodule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearch.designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTJSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTJSearch.designer.cs">
+      <DependentUpon>FrmTJSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWeight.Designer.cs">
+      <DependentUpon>frmWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmwgdmanage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmwgdmanage.designer.cs">
+      <DependentUpon>frmwgdmanage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pgmanagerfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pgmanagerfrm.Designer.cs">
+      <DependentUpon>pgmanagerfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printBFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printBFrm.Designer.cs">
+      <DependentUpon>printBFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="include\Interop.FastReport.dll" />
+    <Content Include="include\Lephone.Data.dll" />
+    <Content Include="include\Lephone.Util.dll" />
+    <Content Include="include\OPL.UI.Controls.dll" />
+    <Content Include="include\ThoughtWorks.QRCode.dll" />
+    <Content Include="更改记录.txt" />
+    <EmbeddedResource Include="addHeatid.resx">
+      <DependentUpon>addHeatid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphaBlendingBringer.resx">
+      <DependentUpon>AlphaBlendingBringer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBDSearch.resx">
+      <DependentUpon>FrmBDSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmchangepass.resx">
+      <DependentUpon>frmchangepass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComSet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmComSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmflash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmflash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmgp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmgp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminputdirname.resx">
+      <DependentUpon>frminputdirname.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoading.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogQuery.resx">
+      <DependentUpon>FrmLogQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmManageLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageMain.resx">
+      <DependentUpon>frmManageMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParam.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmParam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPCLSet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPCLSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmprintmodule.resx">
+      <DependentUpon>frmprintmodule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQSearch.resx">
+      <DependentUpon>FrmQSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQuery.resx">
+      <DependentUpon>FrmQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTJSearch.resx">
+      <DependentUpon>FrmTJSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWeight.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmWeight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmwgdmanage.resx">
+      <DependentUpon>frmwgdmanage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pgmanagerfrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pgmanagerfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printBFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>printBFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="BARCODE.ICO">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="SplashResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SplashResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tjjFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>tjjFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatebarcodeFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>updatebarcodeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\app.manifest" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Public.cs" />
+    <Compile Include="ResolutionX.cs" />
+    <Compile Include="SingleApplication.cs" />
+    <Compile Include="SplashObject.cs" />
+    <Compile Include="SplashResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SplashResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="tjjFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tjjFrm.Designer.cs">
+      <DependentUpon>tjjFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updatebarcodeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatebarcodeFrm.Designer.cs">
+      <DependentUpon>updatebarcodeFrm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="report\12\ckcz.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\12\ptcz.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\12\ptcz1.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\12\ptcz2.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\12\ptcz3.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\12\ptcz4.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\12\ptcz5.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\ckcz.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\ptcz.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\ptcz1.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\ptcz2.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\ptcz3.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\ptcz4.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\ptcz5.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\标准模板\ckcz.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\标准模板\ptcz.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\标准模板\ptcz1.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\标准模板\ptcz2.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\标准模板\ptcz3.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\标准模板\ptcz4.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="report\标准模板\ptcz5.fr3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Splash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="AcctrueWMSDataSet.xsc">
+      <DependentUpon>AcctrueWMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AcctrueWMSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcctrueWMSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcctrueWMSDataSet.xss">
+      <DependentUpon>AcctrueWMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\bar1.jpg" />
+    <None Include="Resources\bar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.ReportViewer.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2010 报表查看器</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
