@@ -328,13 +328,14 @@ namespace WeightApp
             try
             {
                 getWgdPc();
+                Report = new TfrxReportClass();
             }
             catch (Exception ex)
             {
                 errorflag = true;
                 return;
             }
-            Report = new TfrxReportClass();
+           
         }
 
         //在串口取数后设置窗体控件元素 新添加
@@ -1235,6 +1236,7 @@ namespace WeightApp
             bool ret=false;
             try
             {
+                //openCom方法中有串口状态判断
                 if (!Public.openCom(s))
                 {
                     MessageBox.Show("打开串口失败！");
@@ -2461,6 +2463,7 @@ namespace WeightApp
         {
             if (cbComKG.Checked)
             {
+                //openCom 方法中有串口状态判断            
                 if (Public.openCom(s))
                 {
                     commstatus = true;
